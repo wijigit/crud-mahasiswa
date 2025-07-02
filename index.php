@@ -10,7 +10,7 @@
 <body>
     <h1>Daftar Mahasiswa</h1>
 
-    <a href="tambah.php" style="padding: 10px 15px; background-color: #28a745; color: white; border-radius: 5px; text-decoration: none;">+ Tambah Data</a>
+    <a href="tambah.php" style="padding: 10px 15px; background-color:rgb(167, 40, 40); color: white; border-radius: 5px; text-decoration: none;">+ Tambah Data</a>
 
     <table border="1" cellpadding="10" cellspacing="0">
         <thead>
@@ -18,8 +18,8 @@
                 <th>No</th>
                 <th>Nama</th>
                 <th>NIM</th>
-<th>Kelas</th>
-<th>Aksi</th>
+                <th>Kelas</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>
