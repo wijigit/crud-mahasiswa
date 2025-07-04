@@ -1,8 +1,8 @@
 <?php
-    $host = 'database-2025.cbi4ckuweuxr.ap-southeast-2.rds.amazonaws.com';
+    $host = 'database-wj.cbi4ckuweuxr.ap-southeast-2.rds.amazonaws.com';
     $user = 'admin';
-    $pass = 'wjDB45xz';
-    $dbname = 'metadata';
+    $pass = 'wjDB46xz';
+    $dbname = 'metadatata';
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
