@@ -10,7 +10,7 @@
 <body>
     <h1>Daftar Mahasiswa</h1>
 
-    <a href="tambah.php" style="padding: 10px 15px; background-color: #2c2fc9; color: white; border-radius: 5px; text-decoration: none;">+ Tambah Data</a>
+    <a href="tambah.php" style="padding: 10px 15px; background-color:rgb(217, 52, 232); color: white; border-radius: 5px; text-decoration: none;">+ Tambah Data</a>
 
     <table border="1" cellpadding="10" cellspacing="0">
         <thead>
