@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Mahasiswa</title>
+    <title>Tambah Pemain</title>
     <link rel="stylesheet" href="style.css">
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         button[type="submit"] {
             padding: 10px 20px;
             background-color: #007bff;
-                    color: white;
+                              color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -64,14 +64,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </style>
 </head>
 <body>
-    <h2>Tambah Mahasiswa</h2>
+    <h2>Tambah Pemain</h2>
     <form method="post">
         Nama: <input type="text" name="nama" required><br>
-        NIM: <input type="text" name="nim" required><br>
-        Kelas: <input type="text" name="kelas" required><br>
+        Posisi: <input type="text" name="nim" required><br>
+        Nomor Punggung: <input type="text" name="kelas" required><br>
         <button type="submit">Simpan</button>
     </form>
     <br>
-    <a href="index.php">Kembali ke Daftar Mahasiswa</a>
+    <a href="index.php">Kembali ke Daftar Pemain</a>
 </body>
 </html>

@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!-- Form edit -->
 <form method="POST">
     Nama: <input type="text" name="nama" value="<?= htmlspecialchars($data['nama']) ?>"><br>
-    NIM: <input type="text" name="nim" value="<?= htmlspecialchars($data['nim']) ?>"><br>
-    Kelas: <input type="text" name="kelas" value="<?= htmlspecialchars($data['kelas']) ?>"><br>
+    Posisi: <input type="text" name="nim" value="<?= htmlspecialchars($data['nim']) ?>"><br>
+    Nomor Punggung: <input type="text" name="kelas" value="<?= htmlspecialchars($data['kelas']) ?>"><br>
     <button type="submit">Simpan</button>
 </form>
